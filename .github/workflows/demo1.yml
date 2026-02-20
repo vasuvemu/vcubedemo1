@@ -19,6 +19,6 @@ jobs:
    needs: Test
    steps:
      - name: Print hello world
-       run: echo "this is Deploy job"
+       run: echo "this is Deployment job"
         
         
