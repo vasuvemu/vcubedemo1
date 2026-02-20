@@ -1,0 +1,8 @@
+name: demovariable
+on: workflow_dispatch
+jobs: 
+  variable:
+   runs-on: ubuntu-latest
+   steps:
+     - name: print variable
+       run: echo hello, $MY_NAME
