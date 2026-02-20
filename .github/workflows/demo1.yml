@@ -6,7 +6,6 @@ jobs:
    steps:
      - name: Print hello world
        run: echo "this is build job"
-
   Test: 
    runs-on: ubuntu-latest
    needs: build
